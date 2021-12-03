@@ -3,7 +3,7 @@ A simple app to backup odoo and post notifications to a channel.
 
 You have to build and tag the image yourself. Everything is designed to work with [docker swarm](https://docs.docker.com/engine/swarm/) and using compose files.
 A sample service definition could be:
-```
+```yaml
 version: '3.8'
 services:
   backup:
